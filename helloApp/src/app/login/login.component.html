@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  
+  <!-- <div id="c1"><p id="d1">Login</p><p id="d2">SignUp</p></div>-->
+  <div class="box">
+  <div class="flex-container">
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+         
+          <form id="f1">
+              <h1>Login</h1>
+              <div class="inputWithIcon">
+              <input type="text" id="u1" placeholder="Username"  #username/>
+              <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+            </div><br>
+            
+              <div class="inputWithIcon">
+                <input type="password" id="u2" placeholder="Password"  #password/>
+                <i class="fa fa-key fa-lg fa-fw" aria-hidden="true"></i>
+                </div><br>
+        
+            <p id="t3">
+              <input type="submit" value="LogIn" (click)="validate_login(username.value,password.value)"/>
+            </p>
+            <p id="t4">Don't have account?<a href="/sign-up">SignUp</a></p>
+            <p id="t5"><a href="/sign-up">Forgot Password?</a></p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+ </html>

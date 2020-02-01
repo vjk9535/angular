@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <div class="flex-container">
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+<form>
+  <h1>SignUp</h1>
+  <div class="InputWithIcon">
+   <input type="text" placeholder="Username" #username>
+    <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+    </div><br>
+    <div class="InputWithIcon">
+      <input type="password" placeholder="Password" #password/>
+    <i class="fa fa-key fa-lg fa-fw" aria-hidden="true"></i>
+    </div><br>
+    <div class="InputWithIcon">
+    <input type="text" placeholder="user@xyz.com" #emailId>
+    <i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+    </div><br>
+    <p id="f1"><input type="submit" value="Register" (click)="register_signup(username.value,password.value,emailId.value)"></p><br>
+    <p id="f2">Already have account?<a href="/login">Login</a></p>
+</form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+</html>

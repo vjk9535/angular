@@ -1,0 +1,92 @@
+/* .container {
+    
+    padding: 10% 0 0 0;
+    
+} */
+.flex-container {
+  padding: 100px 50px;
+}
+.container {
+  width:300px;
+  height: 400px;
+}
+
+/* #d1 {
+  position: absolute;
+  left:39%;
+  border:2px solid black;
+  padding:10px 110px 10px 10px;
+  background-color: rgb(74, 238, 34);
+}
+#d2 {
+  position: absolute;
+  right:36%;
+  border:2px solid black;
+  padding:10px 10px 10px 100px;
+  background-color: rgb(74, 238, 34);
+} */
+input[type="text"] {
+    border: 1px solid black;
+    border-radius: 5px 20px; 
+    height:25px;
+    padding-left: 40px;
+   
+}
+input[type="password"] {
+    border: 1px solid black;
+    border-radius: 5px 20px; 
+    height:25px;
+    padding-left: 40px;
+    
+}
+#t3 {
+  padding-left: 90px;
+}
+input {
+  max-width:100%;
+}
+input[type="submit"] {
+    border: 1px solid black;
+    border-radius: 5px 20px; 
+    height:25px;
+    background-color: rgb(4, 182, 4);
+    color: white;
+}
+
+input[type="text"]:focus {
+    border-color: Green;
+    box-shadow: 0 0 8px 0 Green;
+  }
+input[type="password"]:focus {
+    border-color: Green;
+    box-shadow: 0 0 8px 0 Green;
+  }
+  .inputWithIcon input[type="text"]:focus + i {
+    color: Green;
+  }
+  .inputWithIcon input[type="password"]:focus + i {
+    color: Green;
+  }
+.inputWithIcon {
+
+    position: relative;
+  }
+  
+.inputWithIcon i {
+    position: absolute;
+    left: 10px;
+    top:4px;
+    padding-left: 5px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+
+  #t4 {
+    padding: 10px 0px 0px 40px;
+    font-size: small;
+  }
+
+  #t5 {
+    padding: 0px 0px 0px 65px;
+    font-size: small;
+  }
